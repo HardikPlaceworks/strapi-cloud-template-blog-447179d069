@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  category controller
+ * language controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::category.category');
+module.exports = createCoreController('api::language.language');
