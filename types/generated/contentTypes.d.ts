@@ -391,7 +391,6 @@ export interface ApiLanguageLanguage extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     key: Schema.Attribute.String &
       Schema.Attribute.Required &
-      Schema.Attribute.Unique &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
