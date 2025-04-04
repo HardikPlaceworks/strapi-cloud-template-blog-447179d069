@@ -33,9 +33,6 @@
           "localized": true
         }
       }
-    },
-    "language_name": {
-      "type": "string"
     }
   }
 }
